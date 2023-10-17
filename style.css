@@ -1,0 +1,140 @@
+.background-image{
+    background-color: #303130;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.table{
+    background-color: #303130;
+}
+.green-banner {
+    background-color: #00FF00; /* Green color */
+    color: #FFFFFF; /* White text color */
+    text-align: center;
+    font-size:xx-large;
+    padding: 5px; /* Adjust padding as needed */
+}
+
+.left_col {
+    height: 460px;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.center_col {
+    width: 500px;
+    background-color: #ffffff;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.footer {
+    width: 200%;
+    padding: 10px 0 10px 20px;
+    background-color: #205bc7;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+/* Boxed */
+.boxed {
+    float: left;
+    clear: left;
+    width: 190px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    background: #EFF3F9;
+}
+
+.boxed .heading {
+    margin-top: 0;
+    padding: 8px 15px;
+    background: #5E80BD no-repeat center bottom;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font: bold .7em Tahoma, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+
+.boxed .content {
+    margin: 0;
+    padding: 5px 14px 10px 14px;
+}
+
+.boxed ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: normal;
+}
+
+.boxed li {
+    padding: 3px 0;
+    border-top: 1px dotted #1F1F21;
+    font-size: .8em;
+}
+
+.boxed li.first {
+    border: none;
+}
+
+.boxed a {
+    padding-left: 10px;
+    background: url(images/img4.gif) no-repeat left center;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    color: #333333;
+}
+
+p,
+blockquote,
+ul {
+    line-height: 160%;
+}
+
+a {
+    color: #3A69BA;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: .8em;
+}
+
+.head1 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.left_col {
+    width: 200px; /* Increase the width of the sidebar */
+    background-color: #ffffff; /* Change the background color of the sidebar */
+    border: 1px solid #cccccc; /* Add a border to the sidebar */
+    padding: 10px; /* Increase the padding around the links in the sidebar */
+  }
+  
+  .left_col li {
+    font-size: 14px; /* Increase the font size of the links in the sidebar */
+  }
+  
+  .left_col a {
+    color: #000000; /* Change the color of the links in the sidebar */
+    text-decoration: none; /* Remove the underline from the links in the sidebar */
+  }
+  
+  .left_col a:hover {
+    color: #3A69BA; /* Change the color of the links in the sidebar when hovered over */
+  }
+
