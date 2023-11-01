@@ -67,6 +67,8 @@
             </td>
         </tr>
     </table>
+    <br>
+    <a href="../index.php">Повернутися на головну сторінку</a>
 </div>
 
 <script>
