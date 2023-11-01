@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "DELETE FROM products WHERE id = '$product_id'";
 
     if (mysqli_query($conn, $sql)) {
-        echo "Product added successfully!";
+        echo "Product deleted successfully!";
         echo '<br><a href="adm.php">Повернутися на сторінку адміністратора</a>';
         echo '<br><a href="../../index.php">Повернутися на головну сторінку</a>';
     } else {
