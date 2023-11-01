@@ -1,6 +1,7 @@
 # Computer networks project
 <details>
 <summary>English</summary>
+  
 # Project Summary:
 In our computer networks project, we immerse ourselves in the realm of web development by creating a website enriched with database integration. This comprehensive project revolves around the creation of a dynamic web platform that includes a main page, "index," and several supplementary pages, including "Товари" (products.php), "Постачання товарів" (prodSupply.php), "Продаж товарів" (sales.php), "Постачальники" (suppliers.php), and "Контакти" (contacts.php). These pages collectively serve as an interactive gateway for users to explore product information, supply records, sales data, supplier details, and contact information.
 
@@ -13,6 +14,7 @@ To fortify the security of our project and control access to the admin page, we 
 </details>
 <details>
 <summary>Українська</summary>
+  
 # Короткий зміст проекту:
 У нашому проекті комп’ютерних мереж ми занурюємось у сферу веб-розробки, створюючи веб-сайт, збагачений інтеграцією бази даних. Цей комплексний проект спрямований на створення динамічної веб-платформи, яка включає головну сторінку, «індекс» і кілька додаткових сторінок, зокрема «Товари» (products.php), «Постачання товарів» (prodSupply.php), «Продаж товарів». » (sales.php), «Постачальники» (suppliers.php) і «Контакти» (contacts.php). Ці сторінки разом служать інтерактивним шлюзом для користувачів, щоб ознайомитися з інформацією про продукт, записами про постачання, даними про продажі, деталями постачальника та контактною інформацією.
 
