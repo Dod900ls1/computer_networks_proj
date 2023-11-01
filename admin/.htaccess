@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Страница администратора! Введите пароль и логин"
+AuthUserFile c:\xampp\htdocs\Nuzp_Proj2\admin\.htpasswd
+require valid-user
