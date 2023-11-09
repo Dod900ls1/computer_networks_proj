@@ -1,4 +1,4 @@
-.background-image{
+.background-image {
     background-color: #303130;
 }
 
@@ -8,15 +8,16 @@
     text-align: center;
 }
 
-.table{
+.table {
     background-color: #303130;
 }
+
 .green-banner {
-    background-color: #00FF00; /* Green color */
-    color: #FFFFFF; /* White text color */
+    background-color: #00FF00;
+    color: #FFFFFF;
     text-align: center;
-    font-size:xx-large;
-    padding: 5px; /* Adjust padding as needed */
+    font-size: xx-large;
+    padding: 5px;
 }
 
 .left_col {
@@ -82,23 +83,19 @@
     border: none;
 }
 
-.boxed a {
+box a {
     padding-left: 10px;
     background: url(images/img4.gif) no-repeat left center;
     text-decoration: none;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: normal;
     color: #333333;
 }
 
-p,
-blockquote,
-ul {
+p, blockquote, ul {
     line-height: 160%;
 }
 
@@ -118,23 +115,34 @@ p {
     text-decoration: underline;
     font-weight: bold;
 }
-.left_col {
-    width: 200px; /* Increase the width of the sidebar */
-    background-color: #ffffff; /* Change the background color of the sidebar */
-    border: 1px solid #cccccc; /* Add a border to the sidebar */
-    padding: 10px; /* Increase the padding around the links in the sidebar */
-  }
-  
-  .left_col li {
-    font-size: 14px; /* Increase the font size of the links in the sidebar */
-  }
-  
-  .left_col a {
-    color: #000000; /* Change the color of the links in the sidebar */
-    text-decoration: none; /* Remove the underline from the links in the sidebar */
-  }
-  
-  .left_col a:hover {
-    color: #3A69BA; /* Change the color of the links in the sidebar when hovered over */
-  }
 
+.left_col {
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.left_col li {
+    font-size: 14px;
+}
+
+.left_col a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.left_col a:hover {
+    color: #3A69BA;
+}
+
+/* Add borders to the table and its elements */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
