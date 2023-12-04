@@ -28,7 +28,7 @@
                 <h1>Промислові Товари</h1>
                 <h3>Заповніть необхідні поля та текст запитання</h3>
 
-                <form method="POST" action="zapros.php">
+                <form method="POST" action="sendmail.php">
 
                     <p>Ваше ФІО<br>
                         <input type="text" name="fio">
