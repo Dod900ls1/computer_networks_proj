@@ -19,11 +19,12 @@
             </td>
         </tr>
         <tr>
-            <td class="left_col">
-                <ul>
-                    <li><a href="index.php">Повернутися на головну</a></li>
-                </ul>
-            </td>
+        <td class="left_col">
+            <?php
+                include("menu.php");
+                ?>
+             </td>
+             
             <td class="center_col">
                 <h1>Продаж товарів</h1>
 
@@ -40,10 +41,11 @@
                 <form method="post">
                     <label for="start_date">Початкова дата:</label>
                     <input type="date" name="start_date" id="start_date">
-                    <label for "end_date">Кінцева дата:</label>
+                    <label for="end_date">Кінцева дата:</label>
                     <input type="date" name="end_date" id="end_date">
                     <input type="submit" value="Фільтрувати за датою">
                 </form>
+
 
                 <!-- Reset Filters Button -->
                 <form method="post">
@@ -62,6 +64,7 @@
                     <?php
                     // Connect to the database
                     $conn = mysqli_connect("localhost", "root", "", "nuzp_proj2");
+
 
                     // Check which form was submitted
                     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -88,13 +91,21 @@
 
                     // Sequentially iterate through the query results
                     while ($row = mysqli_fetch_assoc($result)) {
-                    ?>
+                        ?>
 
                         <tr>
-                            <td><?php echo $row['product_name']; ?></td>
-                            <td><?php echo $row['month_of_sale']; ?></td>
-                            <td><?php echo $row['sold_quantity']; ?></td>
-                            <td><?php echo $row['sale_price']; ?></td>
+                            <td>
+                                <?php echo $row['product_name']; ?>
+                            </td>
+                            <td>
+                                <?php echo $row['month_of_sale']; ?>
+                            </td>
+                            <td>
+                                <?php echo $row['sold_quantity']; ?>
+                            </td>
+                            <td>
+                                <?php echo $row['sale_price']; ?>
+                            </td>
                         </tr>
 
                     <?php } ?>
@@ -106,4 +117,5 @@
         </tr>
     </table>
 </body>
+
 </html>

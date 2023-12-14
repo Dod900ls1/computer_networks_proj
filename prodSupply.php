@@ -19,10 +19,11 @@
         </tr>
         <tr>
             <td class="left_col">
-                <ul>
-                    <li><a href="index.php">Повернутися на головну</a></li>
-                </ul>
+                <?php
+                include("menu.php");
+                ?>
             </td>
+
             <td class="center_col">
                 <h1>Постачання товарів за 2023 рік</h1>
 

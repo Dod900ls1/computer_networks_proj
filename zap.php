@@ -19,11 +19,12 @@
             </td>
         </tr>
         <tr>
-            <td class="left_col">
-                <ul>
-                    <li><a href="index.php">Повернутися на головну</a></li>
-                </ul>
-            </td>
+        <td class="left_col">
+            <?php
+                include("menu.php");
+                ?>
+             </td>
+             
             <td class="center_col">
                 <h1>Промислові Товари</h1>
                 <h3>Заповніть необхідні поля та текст запитання</h3>

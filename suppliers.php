@@ -19,11 +19,12 @@
             </td>
         </tr>
         <tr>
-            <td class="left_col">
-                <ul>
-                    <li><a href="index.php">Повернутися на головну</a></li>
-                </ul>
-            </td>
+        <td class="left_col">
+            <?php
+                include("menu.php");
+                ?>
+             </td>
+             
             <td class="center_col">
                 <h1>Постачальники</h1>
 
@@ -50,7 +51,7 @@
                     <tr>
                         <td><?php echo $row['supplier_code']; ?></td>
                         <td><?php echo $row['supplier_name']; ?></td>
-                        <td><?php echo $row['supplier_address']; ?></td>
+                        <td><?php echo $row['supploer_address']; ?></td>
                         <td><?php echo $row['supplier_phone']; ?></td>
                     </tr>
 

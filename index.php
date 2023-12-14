@@ -23,14 +23,9 @@
     </div>
         <tr>
             <td class="left_col">
-                <ul>
-                    <li><a href="products.php">Товари</a></li>
-                    <li><a href="prodSupply.php">Постачання товарів</a></li>
-                    <li><a href="sales.php">Продаж товарів</a></li>
-                    <li><a href="suppliers.php">Постачальники</a></li>
-                    <li><a href="zap.php">Запит</a></li>
-                    <li><a href="contacts.php">Контакти</a></li>
-                </ul>
+            <?php
+                include("menu.php");
+                ?>
              </td>
              
             <td class="center_col">
